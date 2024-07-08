@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+</style>
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* shred styles */
+
+body{
+    font-family: "Merriweather", serif;
+}
+
+/* banner style */
+
+.banner-container{
+    max-width: 1320px;
+    height: 600px;
+    margin: 50px auto 0 auto;
+    background-image: url('./images/Banner Image.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
+    border: none;
+    border-radius: 16px;
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    align-items: center;
+}
+
+.banner-content p, h1{
+    color: white;
+}
+
+.banner-content p{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.banner-content h1{
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    text-align: center;
+}
+
+/* second section style */
+
+.second-section-container{
+    width: 802.9px;
+    height: 806px;
+    margin: 120px auto;
+}
+
+.second-section-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-section-container img{
+
+}
+
+.second-section-content h1{
+    color: rgb(255, 0, 0);
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    font-family: Inter;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.second-section-content p{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+
+.second-section-content h3{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.image-container{
+    width: 802.9px;
+    height: 500px;
+}
+
+.image-container img{
+    height: 100%;
+    width: 100%;
+}
