@@ -545,8 +545,8 @@ body{
 /* footer style */
 
 .footer{
-    max-width: 1534px;
-    /* height: 609px; */
+    max-width: 1600px;
+    height: 609px;
     background: rgb(7, 2, 17);
     display: flex;
     flex-direction: column;
