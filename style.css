@@ -511,6 +511,9 @@ body{
     margin: 120px auto;
     /* border: 2px solid red; */
     display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
 }
@@ -543,10 +546,16 @@ body{
     margin: 0;
 }
 
+.search-bar{
+    width: 648px;
+    height: 72px;
+    border: 2px solid red;
+}
+
 /* footer style */
 
 .footer{
-    max-width: 1600px;
+    width: 1534px;
     height: 609px;
     background: rgb(7, 2, 17);
     display: flex;
